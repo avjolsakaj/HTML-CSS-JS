@@ -1,0 +1,80 @@
+nav {
+  color: #0000ff;
+}
+
+/* div {
+  color: #ff0000;
+} */
+
+form {
+  color: blue;
+  /* border: 1px solid black; */
+  padding-left: 15px;
+}
+
+p {
+  color: blue;
+}
+
+.pink {
+  color: pink;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+#divMessage {
+  color: blueviolet;
+}
+
+input[type='file'],
+option[value='1'] {
+  color: bisque;
+}
+
+.tableEx {
+  border: 5px;
+  border-color: #0000ff;
+  border-style: dotted;
+  background-color: rgb(255, 255, 0, 0.3);
+  text-align: center;
+  font-size: 0.5em;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  /* background-image: url('./../Images/TreeOfLife.jpeg'); */
+  margin: 50px 5px 0px 100px;
+  padding: 50px 15px 20px 5px;
+}
+
+ul {
+  list-style: disc;
+}
+
+.floatLeft {
+  float: left;
+  margin-right: 5px;
+}
+
+.father {
+  background-color: orange;
+  height: 300px;
+  color: black;
+}
+
+.child-red {
+  background-color: red;
+  height: 100px;
+  margin: 5px;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+}
+
+.child-blue {
+  background-color: blue;
+  height: 100px;
+  margin: 5px;
+}
