@@ -5,15 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML CSS JS</title>
+
+    <!-- CSS in linked file -->
     <link rel="stylesheet" href="./css/main.css">
+
+    <!-- CSS in same page -->
     <!-- <style type="text/css">
         /* This is a red nav */
         nav {
             color: red;
         }
-
     </style> -->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- JS in same page -->
+    <!-- <script type="text/javascript">
+        console.log("Example test from JS");
+    </script> -->
+
+    <!-- JS in linked file -->
+    <script type="text/javascript" src="./js/main.js" defer></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -96,7 +108,7 @@
                 <div id="divMessage">
                     <label for="message">Enter message:</label>
                     <textarea name="message" id="message" cols="30" rows="3" placeholder="ex: message for avjol">
-                </textarea>
+                    </textarea>
                 </div>
 
                 <div class="pink">
@@ -132,7 +144,8 @@
                     <input type="file" name="fileUpload" placeholder="Upload File">
                 </div>
 
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" id="submit">
+                <input type="button" value="Button" id="button">
             </form>
         </div>
 
@@ -166,7 +179,7 @@
                 ratione accusantium alias quam, adipisci repellat animi numquam rem nobis eum.</div>
         </div>
     </main>
-    <footer>
+    <footer id="footer">
         Copyright 2023 SDA
     </footer>
 
